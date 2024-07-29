@@ -18,8 +18,35 @@ app.mount("/js", StaticFiles(directory="js"), name="js")
 
 
 @app.get("/")
-def resume():
+def index():
    return FileResponse("index.html")
+
+
+@app.get("/recommend")
+def recommend():
+   return FileResponse("recommend.html")
+
+
+
+
+@app.get("/record")
+def record():
+   return FileResponse("record.html")
+
+
+
+
+@app.get("/reservation")
+def reservation():
+   return FileResponse("reservation.html")
+
+
+
+@app.get("/mypage")
+def mypage():
+   return FileResponse("mypage.html")
+
+
 
 
 
