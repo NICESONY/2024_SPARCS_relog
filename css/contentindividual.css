@@ -177,19 +177,33 @@ align-items: center;
     font-weight: 700;
 }
 
-.swiperbtu{
-    padding:4px 20px 3px 20px;
+a {
+    text-decoration: none; /* 모든 a 태그에서 밑줄 제거 */
+}
+
+a:hover {
+    text-decoration: none; /* a 태그 호버 시에도 밑줄 제거 */
+}
+
+.swiperbtu {
+    padding: 4px 20px 3px 20px;
     border-radius: 4px;
     border: #F4F0EF solid 1px;
     margin-top: 10px;
 }
 
-.swiperbtu span{
+.swiperbtu span {
     font-family: 'Pretendard-Regular';
     font-size: 13px;
     font-weight: 200;
     color: #F4F0EF;
 }
+
+
+
+
+
+
 .swiper-pagination{
     margin-top:30px ;
     width:50px;
