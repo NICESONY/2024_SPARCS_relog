@@ -13,7 +13,7 @@
 
 # netlify 이용해서 도메인 연결
 
-https://glittering-rolypoly-4a8443.netlify.app
+[홈페이지](https://lambent-pudding-2cb550.netlify.app/)
 
 
 # 향후 추가할 것
