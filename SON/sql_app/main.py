@@ -47,13 +47,13 @@ def get_db():
 
 from .models import Record
 
-## 이미지 올리기 위한 getmaping연결
-@app.get("/image/{image_id}", response_class=HTMLResponse)
-async def get_image(request: Request, image_id: int, db: Session = Depends(get_db)):
-    image = db.query(Record).filter(Record.id == image_id).first()
-    if image is None:
-        raise HTTPException(status_code=404, detail="Image not found")
-    return templates.TemplateResponse("image_display.html", {"request": request, "image": image})
+# ## 이미지 올리기 위한 getmaping연결
+# @app.get("/image/{image_id}", response_class=HTMLResponse)
+# async def get_image(request: Request, image_id: int, db: Session = Depends(get_db)):
+#     image = db.query(Record).filter(Record.id == image_id).first()
+#     if image is None:
+#         raise HTTPException(status_code=404, detail="Image not found")
+#     return templates.TemplateResponse("image_display.html", {"request": request, "image": image})
 
 
 

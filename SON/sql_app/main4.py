@@ -266,3 +266,12 @@ Title: 21312
 Hashtag: 12312
 Content: 21312
 ------
+
+# Records Output
+Date: 1321
+Location: 231
+User ID: 321312
+Title: 12312321
+Hashtag: 2313
+Content: 12321
+------
